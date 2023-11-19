@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{e52511e5-9ff5-4b7c-872f-8fa3bc9baa15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\rhi">
+      <UniqueIdentifier>{53a765b5-4bae-427b-be15-0708ad4c1337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\third_party">
+      <UniqueIdentifier>{c2d29302-f528-4fd2-86fd-4fbf1f7cdcc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\rhi\opengl">
+      <UniqueIdentifier>{e1087ebd-6d31-4ca5-b6d8-b59dcd4406a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\rhi\vulkan">
+      <UniqueIdentifier>{52756956-97f2-4b67-800f-80397b061065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\rhi\dx12">
+      <UniqueIdentifier>{4528d205-d1ee-49a8-9e2a-ebec30c2e311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\rhi\mental">
+      <UniqueIdentifier>{f8a0f7fa-8379-4e36-8284-79b537f6e7fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rhi.h">
+      <Filter>src\rhi</Filter>
+    </ClInclude>
+    <ClInclude Include="openglShaderProgram.h">
+      <Filter>src\rhi\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="openglShader.h">
+      <Filter>src\rhi\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="openglRHI.h">
+      <Filter>src\rhi\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="openglVertexArray.h">
+      <Filter>src\rhi\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="openglSampler.h">
+      <Filter>src\rhi\opengl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="rhi.cpp">
+      <Filter>src\rhi</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\include\glad.c">
+      <Filter>src\third_party</Filter>
+    </ClCompile>
+    <ClCompile Include="openglShaderProgram.cpp">
+      <Filter>src\rhi\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="openglShader.cpp">
+      <Filter>src\rhi\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="openglRHI.cpp">
+      <Filter>src\rhi\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="openglVertexArray.cpp">
+      <Filter>src\rhi\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="openglSampler.cpp">
+      <Filter>src\rhi\opengl</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
